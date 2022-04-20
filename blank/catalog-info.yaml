@@ -7,11 +7,10 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-# Default   
-    - ./blank/components/tap-gui.yaml
-    - ./blank/groups/default-org.yaml
-    - ./blank/systems/tap-gui-system.yaml
-    - ./blank/domains/tap-gui-domain.yaml
+    - ./components/tap-gui.yaml
+    - ./groups/default-org.yaml
+    - ./systems/tap-gui-system.yaml
+    - ./domains/tap-gui-domain.yaml
 # Yelb Catalog 
     - ./yelb-catalog/components/yelb-ui/yelb-ui.yaml
     - ./yelb-catalog/components/redis-server/redis-server.yaml
@@ -21,10 +20,3 @@ spec:
     - ./yelb-catalog/systems/yelb-system.yaml
     - ./yelb-catalog/resources/yelb-db-resource.yaml
     - ./yelb-catalog/domains/cloudapps-domain.yaml
-# Spring-sensors-rabbit
-
-    - ./spring-sensors-rabbit/catalog-info.yaml
-
-# API
-
-    - ./microservice/catalog-info.yaml
