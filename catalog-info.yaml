@@ -13,14 +13,14 @@ spec:
     - ./blank/systems/tap-gui-system.yaml
     - ./blank/domains/tap-gui-domain.yaml
 # Yelb Catalog 
-    - ./yelb-catalog/components/yelb-ui/yelb-ui.yaml
-    - ./yelb-catalog/components/redis-server/redis-server.yaml
-    - ./yelb-catalog/components/yelb-db/yelb-db.yaml
-    - ./yelb-catalog/components/yelb-appserver/yelb-appserver.yaml
-    - ./yelb-catalog/groups/org.yaml
-    - ./yelb-catalog/systems/yelb-system.yaml
-    - ./yelb-catalog/resources/yelb-db-resource.yaml
-    - ./yelb-catalog/domains/cloudapps-domain.yaml
+    # - ./yelb-catalog/components/yelb-ui/yelb-ui.yaml
+    # - ./yelb-catalog/components/redis-server/redis-server.yaml
+    # - ./yelb-catalog/components/yelb-db/yelb-db.yaml
+    # - ./yelb-catalog/components/yelb-appserver/yelb-appserver.yaml
+    # - ./yelb-catalog/groups/org.yaml
+    # - ./yelb-catalog/systems/yelb-system.yaml
+    # - ./yelb-catalog/resources/yelb-db-resource.yaml
+    # - ./yelb-catalog/domains/cloudapps-domain.yaml
 # Spring-sensors-rabbit
 
     - ./spring-sensors-rabbit/catalog-info.yaml
